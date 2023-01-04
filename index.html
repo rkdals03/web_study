@@ -17,12 +17,29 @@
                 color:aquamarine;
                 text-decoration: none;
             }
+            .profilenuburi{
+                width:200px
+            }
+            .profile{
+                height:200px;
+                position:relative;
+            }
+            .profileface{
+                height:200px;
+                position:absolute;
+                display:none;
+            }
+            .profile:hover .profileface{
+                display:block;
+            }
         </style>
     </head>
         <body bgcolor="A05A10">
             <h1 class = 'name'>GangMin Kim</h1>
-            <img class = 'profile' src = "https://w.namu.la/s/bb9cfbe410e66a6e3ae86f00a8bd3c263f7512b8f74571e6130a700666e1fc523f43437cfe55fbbd484b0513ab34357ee859af5a9a9ee98ac0753993c6fc5e430370e6264ae0d604d953cc2fc9f199b056cebc18156b46764df656494b2f43d4" alt = "">
-            <img class = 'profile_face' src="./web_study/assets/profile.jpeg" alt ="">
+            <div class="profile">
+                <img class = 'profileface' src = "./assets/profile.jpeg" alt ="">
+                <img class = 'profilenuburi' src = "https://w.namu.la/s/bb9cfbe410e66a6e3ae86f00a8bd3c263f7512b8f74571e6130a700666e1fc523f43437cfe55fbbd484b0513ab34357ee859af5a9a9ee98ac0753993c6fc5e430370e6264ae0d604d953cc2fc9f199b056cebc18156b46764df656494b2f43d4" alt = "">
+            </div>
             <br>
             <div class = 'text'>Hi I'm GangMin Kim</div>
             <div class = 'text'>Fucking World!</div>
